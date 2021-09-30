@@ -1,0 +1,36 @@
+.board {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+	height: auto;
+	width: 520px;
+	border: 1px solid black;
+}
+
+.cell {
+	border: 1px solid black;
+	height: 50px;
+	width: 50px;	
+}
+
+.empty {
+	background-color: white;
+}
+#change-dir-btn {
+	background-color: lightgray;
+	width: 150px;
+	padding: 10px;
+	text-align: center;
+}
+
+.valid {
+	background-color: lightgreen !important;
+}
+
+.invalid {
+	background-color: lightcoral !important;
+}
+
+.filled {
+	background-color: darkgray;
+}
